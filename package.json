@@ -1,0 +1,5 @@
+{
+  "devDependencies": {
+    "@invictus.codes/nuxt-vuetify": "^0.2.20"
+  }
+}
