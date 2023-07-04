@@ -14,6 +14,7 @@ export function useMidJourney(): IUseMidJourney {
       method: "post",
       body: {
         prompt: `${imageUrl} ${prompt}`,
+        callbackURL: "https://midprinter.tincom.biz/api/generatedImage/",
       },
       headers: {
         Authorization: MIDJOURNEY_API_KEY,
